@@ -2,7 +2,7 @@ import { createServer } from "node:http";
 
 const port = Number(process.env.PORT ?? 3000);
 const version = process.env.APP_VERSION ?? "v1.0.0";
-const message = process.env.APP_MESSAGE ?? "Xin chào từ Test_Thoylyyy chạy trên Mini PaaS!";
+const message = process.env.APP_MESSAGE ?? "Bản 2: đã cập nhật qua commit mới!";
 
 const page = `<!doctype html>
 <html lang="vi"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
